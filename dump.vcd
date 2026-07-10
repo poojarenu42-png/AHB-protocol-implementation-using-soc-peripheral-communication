@@ -1,0 +1,255 @@
+$date
+	Mon Jun 29 19:43:42 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module ahb_tb $end
+$var wire 1 ! HWRITE $end
+$var wire 32 " HWDATA [31:0] $end
+$var wire 2 # HTRANS [1:0] $end
+$var wire 3 $ HSIZE [2:0] $end
+$var wire 1 % HSELx $end
+$var wire 2 & HRESP [1:0] $end
+$var wire 1 ' HREADY_OUT $end
+$var wire 1 ( HREADY_IN $end
+$var wire 32 ) HRDATA [31:0] $end
+$var wire 3 * HBURST [2:0] $end
+$var wire 32 + HADDR [31:0] $end
+$var reg 1 , HCLK $end
+$var reg 1 - HRESETn $end
+$scope module uut_master $end
+$var wire 1 , HCLK $end
+$var wire 1 - HRESETn $end
+$var wire 2 . HRESP [1:0] $end
+$var wire 1 ' HREADY_OUT $end
+$var wire 32 / HRDATA [31:0] $end
+$var reg 32 0 HADDR [31:0] $end
+$var reg 3 1 HBURST [2:0] $end
+$var reg 1 ( HREADY_IN $end
+$var reg 1 % HSELx $end
+$var reg 3 2 HSIZE [2:0] $end
+$var reg 2 3 HTRANS [1:0] $end
+$var reg 32 4 HWDATA [31:0] $end
+$var reg 1 ! HWRITE $end
+$var reg 3 5 next_state [2:0] $end
+$var reg 3 6 state [2:0] $end
+$upscope $end
+$scope module uut_slave $end
+$var wire 32 7 HADDR [31:0] $end
+$var wire 3 8 HBURST [2:0] $end
+$var wire 1 , HCLK $end
+$var wire 1 ( HREADY_IN $end
+$var wire 1 - HRESETn $end
+$var wire 1 % HSELx $end
+$var wire 3 9 HSIZE [2:0] $end
+$var wire 2 : HTRANS [1:0] $end
+$var wire 32 ; HWDATA [31:0] $end
+$var wire 1 ! HWRITE $end
+$var reg 32 < HRDATA [31:0] $end
+$var reg 1 ' HREADY_OUT $end
+$var reg 2 = HRESP [1:0] $end
+$var reg 2 > wait_count [1:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 >
+b0 =
+b0 <
+b0 ;
+b0 :
+b10 9
+b0 8
+b0 7
+b0 6
+b1 5
+b0 4
+b0 3
+b10 2
+b0 1
+b0 0
+b0 /
+b0 .
+0-
+0,
+b0 +
+b0 *
+b0 )
+1(
+1'
+b0 &
+1%
+b10 $
+b0 #
+b0 "
+0!
+$end
+#5000
+1,
+#10000
+0,
+#15000
+1,
+#20000
+0,
+1-
+#25000
+b10 5
+b1 6
+1,
+#30000
+0,
+#35000
+b11 5
+b10 6
+b10101010 "
+b10101010 4
+b10101010 ;
+b10 +
+b10 0
+b10 7
+b10 #
+b10 3
+b10 :
+1!
+1,
+#40000
+0,
+#45000
+b100 5
+0!
+b11 6
+1,
+#50000
+0,
+#55000
+b101 5
+b100 6
+b1011101110111011 "
+b1011101110111011 4
+b1011101110111011 ;
+b100000 +
+b100000 0
+b100000 7
+1!
+b10101010 )
+b10101010 /
+b10101010 <
+1,
+#60000
+0,
+#65000
+b110 5
+b1 >
+0'
+b1101111010101101 "
+b1101111010101101 4
+b1101111010101101 ;
+b111111111 +
+b111111111 0
+b111111111 7
+b101 6
+1,
+#70000
+0,
+#75000
+b110 6
+b101 +
+b101 0
+b101 7
+b1 #
+b1 3
+b1 :
+b1 &
+b1 .
+b1 =
+1'
+1,
+#80000
+0,
+#85000
+b0 &
+b0 .
+b0 =
+b1000 +
+b1000 0
+b1000 7
+b111 $
+b111 2
+b111 9
+b10 #
+b10 3
+b10 :
+1,
+#90000
+0,
+#95000
+b0 >
+1,
+#100000
+0,
+#105000
+1,
+#110000
+0,
+#115000
+1,
+#120000
+0,
+#125000
+1,
+#130000
+0,
+#135000
+1,
+#140000
+0,
+#145000
+1,
+#150000
+0,
+#155000
+1,
+#160000
+0,
+#165000
+1,
+#170000
+0,
+#175000
+1,
+#180000
+0,
+#185000
+1,
+#190000
+0,
+#195000
+1,
+#200000
+0,
+#205000
+1,
+#210000
+0,
+#215000
+1,
+#220000
+0,
+#225000
+1,
+#230000
+0,
+#235000
+1,
+#240000
+0,
+#245000
+1,
+#250000
+0,
